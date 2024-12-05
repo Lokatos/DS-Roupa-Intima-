@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva&family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <header>
@@ -17,17 +19,17 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#sobre">Sobre</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
+    <section id="Sobre">
         <div class="container">
             <img class="front" src="./fotos/Glamour Íntimo.jpeg" alt="Loja - Glamour Íntimo">
             <div>
@@ -57,16 +59,51 @@
         </div>
     </section>
 
-    <section>
+    <section id="contact">
         <div class="container">
             <h2>Contato</h2>
-            <div>
+            <div class="contatos-formas">
                 <div>
-                    
+                    <h3>Falei conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <input type="tel" placeholder="Seu telefone (Opcional)">
+                        <textarea placeholder="sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nossas redes sociais</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.instagram.com/" title="Siga-nos Intagram"><img src="./fotos/instagram.png" alt="Logo do Intagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" title="Siga-nos Facebook"><img src="./fotos/facebook.png" alt="Logo do Facebook"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.whatsapp.com/?lang=pt_BR" title="Compre pelo Whatsapp "><img src="./fotos/whatsapp.png" alt="Logo do whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        rua javascript, n°1234, vila HTML - Fortaleza-Ce 
+                    </p>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Liebe - Todos os direitos reservador - 2024
+            </p> 
+        </div>
+    </footer>
 
 </body>
 </html>
